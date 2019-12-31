@@ -1,3 +1,5 @@
+// The event object contains all the information about the event that triggered this Lambda. In the case of an HTTP request it’ll be information about the specific HTTP request.
+// The context object contains info about the runtime our Lambda function is executing in.
 export const hello = async (event, context) => {
   return {
     statusCode: 200,
